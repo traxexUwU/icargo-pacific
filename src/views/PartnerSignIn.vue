@@ -68,19 +68,21 @@
                   </div>
 
                   <div class="pt-1 mb-4 d-flex justify-content-center">
-                    <div class="btn-group me-2 top-0">
-                      <a
-                        style="background-color: white"
-                        class="btn btn-primary btn-sm btn-block text-dark shadow rounded border border-2"
-                        href="signin.html"
-                        role="button"
-                        ><router-link to="/" class="text-decoration-none">Back</router-link></a
-                      >
-                    </div>
 
                     <div class="btn-group me-2 top-0">
                       <a
                         style="background-color: white"
+                        class="btn btn- primary btn-sm btn-block text-dark shadow rounded border border-2"
+                        href="signin.html"
+                        role="button"
+                        ><router-link to="/" class="text-decoration-none" style="color: black">Back</router-link></a
+                      >
+                      </div>
+                
+
+                    <div class="btn-group me-2 top-0">
+                      <a
+                        style="background-color: blue"
                         class="btn btn- primary btn-sm btn-block text-dark shadow rounded border border-2"
                         href="signin.html"
                         role="button"

@@ -61,7 +61,7 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#partnership"
+            <a class="nav-link" aria-current="page" href="#Partnership"
               >Partnership</a
             >
           </li>
@@ -286,7 +286,7 @@
 
 
   <!--- partnership -->
-  <section class="vh-100" id="partner">
+  <section class="vh-100" id="Partnership">
   <div class="container-fluid">
     <div class="row">
 
