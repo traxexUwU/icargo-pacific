@@ -5,10 +5,10 @@
       <div style="background-color: #f8f9fa" class="row">
         <div class="col-sm-6 px-0 d-none d-sm-block">
           <img
-            src="../assets/img/deliverywoman-image.jpg"
+            src="../assets/img/register.jpg"
             alt="Login image"
             class="w-100 vh-100 img-fluid"
-            style="object-fit: cover; object-position: left"
+            style="object-fit: cover; object-position: center"
           />
         </div>
 
@@ -115,25 +115,28 @@
               </div>
 
               <div class="pt-1 mb-4 d-flex justify-content-center">
-                <div class="btn-group me-2 top-0">
-                  <router-link
-                    to="/partner-sign-in"
-                    style="background-color: white"
-                    class="btn btn-primary btn-sm btn-block text-dark shadow rounded border border-2"
-                    role="button"
-                    >Back
-                  </router-link>
-                </div>
 
                 <div class="btn-group me-2 top-0">
-                  <a
-                    style="background-color: #0d6efd"
-                    class="btn btn-primary btn-sm btn-block text-light shadow rounded border-0"
-                    href="Landingpage.vue"
-                    role="button"
-                    >Sign up</a
-                  >
-                </div>
+                      <a
+                        style="background-color: white"
+                        class="btn btn- primary btn-sm btn-block text-dark shadow rounded border border-2"
+                        href="signin.html"
+                        role="button"
+                        ><router-link to="/" class="text-decoration-none">Back</router-link></a
+                      >
+                    </div>
+
+                 <div class="btn-group me-2 top-0">
+                      <a
+                        style="background-color: white"
+                        class="btn btn- primary btn-sm btn-block text-dark shadow rounded border border-2"
+                        href="signin.html"
+                        role="button"
+                        ><router-link to="/dashboard" class="text-decoration-none">Sign up</router-link></a
+                      >
+                    </div>
+
+
               </div>
             </form>
           </div>
@@ -170,18 +173,6 @@ export default {
 }
 
 /*--Container--*/
-.container,
-.container-fluid,
-.container-xxl,
-.container-xl,
-.container-lg,
-.container-md {
-  width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
-}
 
 @media (min-width: 576px) {
   .container-sm,
