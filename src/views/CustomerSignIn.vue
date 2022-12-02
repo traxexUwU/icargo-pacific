@@ -5,10 +5,10 @@
       <div style="background-color: #f8f9fa" class="row">
         <div class="col-sm-6 px-0 d-none d-sm-block">
           <img
-            src="../assets/img/delivery-image.jpg"
+            src="../assets/img/register2.jpg"
             alt="Login image"
             class="w-100 vh-100 img-fluid"
-            style="object-fit: cover; object-position: left"
+            style="object-fit: cover; object-position: center"
           />
         </div>
 
@@ -16,7 +16,7 @@
           <div
             class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5"
           >
-            <form style="width: 25rem">
+            <form style="width: 23rem">
               <div class="icons p-1">
                 <div
                   class="fa-stack fa-1x d-flex position-absolute top-0 end-0 pt-3"
@@ -74,17 +74,17 @@
                         class="btn btn-primary btn-sm btn-block text-dark shadow rounded border border-2"
                         href="signin.html"
                         role="button"
-                        >Back</a
+                        ><router-link to="/" class="text-decoration-none">Back</router-link></a
                       >
                     </div>
 
                     <div class="btn-group me-2 top-0">
                       <a
-                        style="background-color: #0d6efd"
-                        class="btn btn-primary btn-sm btn-block text-light shadow rounded border-0"
-                        href="index.html"
+                        style="background-color: white"
+                        class="btn btn- primary btn-sm btn-block text-dark shadow rounded border border-2"
+                        href="signin.html"
                         role="button"
-                        >Sign in</a
+                        ><router-link to="/dashboard" class="text-decoration-none">Sign in</router-link></a
                       >
                     </div>
                   </div>
@@ -120,13 +120,9 @@
                   </div>
 
                   <div class="pt-1 mb-4 d-flex justify-content-center">
-                    <p>
-                      Don't have an account yet?
-                      <a href="customer-signup.vue" class="link-warning"
-                        >Sign up</a
-                      >
-                    </p>
-                  </div>
+                <p>Don't have an account yet?</p>
+                  <router-link class="nav text-warning" to="/customer-sign-up" exact> Sign up</router-link>
+              </div>
                 </div>
               </div>
             </form>
@@ -163,19 +159,6 @@ export default {
   text-decoration: none;
 }
 
-/*--Container--*/
-.container,
-.container-fluid,
-.container-xxl,
-.container-xl,
-.container-lg,
-.container-md {
-  width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
-}
 
 @media (min-width: 576px) {
   .container-sm,
