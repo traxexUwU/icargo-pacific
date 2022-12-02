@@ -1,23 +1,8 @@
 <template>
-  <div id="app">
-    <Landingpage/>
-  </div>
-
+  <router-view />
 </template>
 
-<script>
-
-import Landingpage from './components/Landingpage.vue'
-
-export default{
-  name:'App',
-  components: {
-    Landingpage,
-  },
-};
-
-</script>
-
+<script></script>
 
 <style scoped>
 
