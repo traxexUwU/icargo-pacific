@@ -81,7 +81,9 @@
         </ul>
         <form class="d-flex">
           <button class="btn btn-outline-warning" type="submit">
-            Book Now
+            <router-link class="nav-link" aria-current="page" to="/sign-in"
+              >Sign In</router-link
+            >
           </button>
         </form>
       </div>
@@ -160,7 +162,7 @@
         </h2>
       </div>
       <div
-        id="carouselExampleControls"
+        id="carousels"
         class="carousel slide"
         data-ride="carousel"
       >
@@ -263,7 +265,7 @@
           </div>
           <a
             class="carousel-control-prev"
-            href="#carouselExampleControls"
+            href="#carousels"
             role="button"
             data-slide="prev"
           >
@@ -272,7 +274,7 @@
           </a>
           <a
             class="carousel-control-next"
-            href="#carouselExampleControls"
+            href="#carousels"
             role="button"
             data-slide="next"
           >
@@ -558,6 +560,45 @@ header.masthead .masthead-heading {
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
+  }
+}
+/*--Container--*/
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-md, .container-sm, .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-lg, .container-md, .container-sm, .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1320px;
   }
 }
 
@@ -861,6 +902,10 @@ header.masthead .masthead-heading {
 }
 
 /*--Page Section--*/
+.text-center {
+  text-align: center !important;
+}
+
 .page-section {
   padding: 6rem 0;
 }
